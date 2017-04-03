@@ -5,13 +5,15 @@
   if ($conn->connect_error) {
 ?>
 
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
+
   <head>
     <meta charset="utf-8">
     <title> Fail | T&amp;L </title>
     <link rel="stylesheet" href="../css/welcome.css">
   </head>
+
   <body>
     <nav class="navbar">
       <div class="buttons">
@@ -25,5 +27,6 @@
       <div <?php echo "class='status $class'"; ?> ></div>
     </footer>
   </body>
-</html>
-<?php } else { header("Location: ../index.php"); } ?>
+
+  </html>
+  <?php } else { header("Location: ../index.php"); } ?>

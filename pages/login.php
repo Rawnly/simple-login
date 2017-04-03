@@ -7,13 +7,15 @@
     include_once "../helpers/db.php"
 ?>
 
-<!DOCTYPE html>
-<html>
+  <!DOCTYPE html>
+  <html>
+
   <head>
     <meta charset="utf-8">
     <title> Log In | T&amp;L </title>
     <link rel="stylesheet" href="../css/login.css">
   </head>
+
   <body>
     <nav class="navbar">
       <div class="buttons">
@@ -32,6 +34,7 @@
       <div <?php echo "class='status $class'"; ?> ></div>
     </footer>
   </body>
-</html>
 
-<?php } ?>
+  </html>
+
+  <?php } ?>
