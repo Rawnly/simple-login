@@ -9,7 +9,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Fail | T&L </title>
+    <title> Fail | T&amp;L </title>
     <link rel="stylesheet" href="../css/welcome.css">
   </head>
   <body>

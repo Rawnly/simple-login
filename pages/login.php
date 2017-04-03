@@ -11,7 +11,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> Log In | T&L </title>
+    <title> Log In | T&amp;L </title>
     <link rel="stylesheet" href="../css/login.css">
   </head>
   <body>

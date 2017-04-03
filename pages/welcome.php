@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="../css/welcome.css">
   </head>
   <body>
-    <header class="navbar">
+    <nav class="navbar">
       <span class="username"> Logged as <span class="user"> <?php echo $_SESSION["logged-username"] ?>  </span> </span>
       <a href="../helpers/logout.php" class="signout"> Sign Out </a>
-    </header>
+    </nav>
     <h1 align="center"> Dashboard </h1>
   </body>
 </html>
