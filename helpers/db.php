@@ -2,14 +2,14 @@
   error_reporting(E_ERROR | E_PARSE);
 
   // CREDENTIALS  
-  // Edit with yours.
-  $host = '127.0.0.1';
-  $name = "test_database";
-  $port = 8889;
-  $pass = "root";
-  $user = "root";
+  // Database from https://freemysqlhosting.net
+  $host = 'sql8.freemysqlhosting.net';
+  $name = "sql8167203";
+  $port = 3306;
+  $pass = "sql8167203";
+  $user = "sPxjck5E8z";
   $server = "$host:$port";
-  
+
   // Connection init
   $conn = new mysqli($host, $user, $pass, $name, $port);
   
