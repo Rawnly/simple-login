@@ -1,0 +1,51 @@
+// compileCompact: ../$1.css
+@import "navbar"
+
+.navbar
+  .buttons
+    padding: 10px
+    position: relative
+    margin: 10px 0px 0px 10px
+    float: left
+    text-transform: capitalize
+
+form
+  position: absolute
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -50%)
+
+  text-align: center
+
+  *
+    font-size: 16px
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"]
+    padding: 7px
+    margin: 2.5px
+    outline: none
+    border: 0px
+    border-bottom: 1px solid #999
+    color: #999
+    transition: border .2s, color .2s
+
+    &:focus
+      border-color: #191A1C
+      color: #191A1C
+
+  input[type="submit"]
+    outline: none
+    transition: color .25s, background .25s, border .25s
+    margin-top: 15px
+    padding: 5px 10px
+    border: 1px solid #191A1C
+    color: #fff
+    background: #191A1C
+    cursor: pointer
+
+    &:hover
+      background: transparent
+      color: #191A1C
+      border-radius: 3px
